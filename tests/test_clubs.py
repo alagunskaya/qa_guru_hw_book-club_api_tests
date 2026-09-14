@@ -1,7 +1,7 @@
 import requests
 from jsonschema import validate
 
-from schema import CLUBS_LIST_SCHEMA
+from schemas.schema import CLUBS_LIST_SCHEMA
 
 BASE_URL = "https://book-club.qa.guru/api/v1/clubs/"
 
