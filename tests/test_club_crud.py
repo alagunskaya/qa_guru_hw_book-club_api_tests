@@ -1,4 +1,4 @@
-from conftest import BASE_URL
+from tests.conftest import BASE_URL
 
 
 def test_create_club_success(created_club, club_data):
